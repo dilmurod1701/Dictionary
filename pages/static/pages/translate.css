@@ -1,0 +1,44 @@
+.search {
+  width: 41%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 5px;
+  outline: none;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid;
+  background: #00B4CC;
+  text-align: center;
+  color: white;
+  border-radius: 0 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+h2 {
+    position: relative;
+    right: 200px;
+    color: red;
+}
+
+h3 {
+    position: relative;
+    right: 200px;
+}
+
+.main {
+    position: absolute;
+    top: 150px;
+    left: 700px;
+}

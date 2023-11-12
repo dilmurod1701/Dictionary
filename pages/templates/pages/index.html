@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static 'pages/main.css' %}">
+</head>
+<body>
+<div class="main">
+    <h1>type any word and I will explain you</h1>
+   <div class="search">
+     <form action="word">
+      <input type="text" name="search" class="searchTerm" placeholder="Input Your Word Here">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+    </form>
+   </div>
+</div>
+</body>
+</html>
